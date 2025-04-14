@@ -11,13 +11,13 @@
     */
     
     $host = "localhost";      // Poner el hostname de phpmyadmin del servidor de mysql
-    $dbName = "grupo3_2021";  // Nombre de la base de datos
+    $dbName = "listadecanciones";  // Nombre de la base de datos
     $usuario = "root";     // Nombre de usuario
     $pass = "";       // Contrasena
     
     try 
     {
-      $pdo = new PDO("mysql:host={$host};dbname={$dbName}", $usuario, $pass);
+      $pdo = new PDO("mysql:host={$host};dbname={$dbName};charset=utf8mb4", $usuario, $pass);
       $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
       return $pdo;
     }

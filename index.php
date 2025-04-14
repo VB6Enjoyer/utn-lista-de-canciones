@@ -30,7 +30,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!--CSS-->
-    <link href="/ListaDeCanciones/assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,6 @@
 
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/5f64a46e85.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/ListaDeCanciones/assets/css/font-awesome-animation.css">
 
 </head>
 
